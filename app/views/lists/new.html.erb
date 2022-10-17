@@ -8,5 +8,8 @@
   <h4>本文</h4>
   <%= f.text_area :body %>
 
+  <h4>画像</h4>
+  <%= f.file_field :image , accept: "image/*" %> <!-- file_field は、画像,動画,音声ファイルを投稿可能 今回は、accept: "image/*"で画像ファイルだけに指定-->
+
   <%= f.submit '投稿' %>
 <% end %>

@@ -36,6 +36,6 @@ class ListsController < ApplicationController
   # ストロングパラメータ
   # list_params は保存したいデータの絞り込みを行う。
   def list_params
-    params.require(:list).permit(:title, :body)
+    params.require(:list).permit(:title, :body, :image)
   end
 end
