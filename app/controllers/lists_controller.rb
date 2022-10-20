@@ -13,7 +13,6 @@ class ListsController < ApplicationController
       # トップ画面へリダイレクト
       redirect_to list_path(@list.id)
     else
-      # 同じコントローラ内の別アクションのviewを表示
       render :new
     end
   end
