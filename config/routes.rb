@@ -10,5 +10,5 @@ Rails.application.routes.draw do
     # create(投稿作成)
     # destroy(投稿削除)
     # update(投稿更新)
-
+ 
 end
